@@ -215,6 +215,24 @@
 	dir = pick(GLOB.cardinals)
 	. = ..()
 
+/turf/open/floor/rogue/snowthick
+	name = "thick snow"
+	desc = "A gentle blanket of snow."
+	icon_state = "snowsoft"
+	layer = MID_TURF_LAYER
+	footstep = FOOTSTEP_GRASS
+	barefootstep = FOOTSTEP_SOFT_BAREFOOT
+	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
+	tiled_dirt = FALSE
+	landsound = 'sound/foley/jumpland/grassland.wav'
+	slowdown = 0
+	smooth = SMOOTH_TRUE
+	neighborlay = "snowsoftedge"
+
+/turf/open/floor/rogue/snow/Initialize()
+	dir = pick(GLOB.cardinals)
+	. = ..()
+
 /turf/open/floor/rogue/snow/cardinal_smooth(adjacencies)
 	roguesmooth(adjacencies)
 
