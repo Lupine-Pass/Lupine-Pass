@@ -580,3 +580,71 @@
     dir = SOUTH
     debris = list(/obj/item/natural/thorn = 3, /obj/item/grown/log/tree/stick = 1)
 //WIP
+
+
+
+//pinetrees from Azure
+
+/obj/structure/flora/roguetree/pine
+	name = "pine tree"
+	icon_state = "pine1"
+	desc = "A great pine tree, its evergreen presence a rare splash of colour in the mountains."
+	icon = 'icons/obj/flora/pines.dmi'
+	pixel_w = -24
+	density = 0
+	max_integrity = 100
+	static_debris = list(/obj/item/grown/log/tree = 2)
+	stump_type = /obj/structure/flora/roguetree/stump/pine
+
+/obj/structure/flora/roguetree/pine/Initialize()
+	. = ..()
+	icon_state = "pine[rand(1, 4)]"
+
+/obj/structure/flora/roguetree/pine/burn()
+	new /obj/structure/flora/roguetree/pine/dead(get_turf(src))
+	qdel(src)
+
+/obj/structure/flora/roguetree/pine/dead
+	name = "burnt pine tree"
+	icon_state = "dead1"
+	desc = "The corpse of a once great pine tree, burnt to a crisp."
+	max_integrity = 50
+	static_debris = list(/obj/item/grown/log/tree = 1)
+	resistance_flags = FIRE_PROOF
+	stump_type = /obj/structure/flora/roguetree/stump/pine
+
+/obj/structure/flora/roguetree/pine/dead/Initialize()
+	. = ..()
+	icon_state = "dead[rand(1, 3)]"
+
+
+/obj/structure/flora/roguetree/stump/pine
+	name = "pine stump"
+	icon_state = "dead4"
+	icon = 'icons/obj/flora/pines.dmi'
+	static_debris = list(/obj/item/grown/log/tree/small = 1)
+	stump_type = null
+	pixel_x = -32
+
+/obj/structure/flora/roguetree/stump/pine/Initialize()
+	. = ..()
+	icon_state = "dead[rand(4,5)]"
+
+//Extra pinetree versions
+/obj/structure/flora/roguetree/pine/snowy
+	name = "pine tree"
+	desc = "A great pine tree, its evergreen presence a rare splash of colour in the mountains despite the snow covering it."
+	icon_state = "pine1-snow"
+	icon = 'icons/obj/flora/pines.dmi'
+	static_debris = list(/obj/item/grown/log/tree = 2)
+
+/obj/structure/flora/roguetree/pine/Initialize()
+	. = ..()
+	icon_state = "pine[rand(1, 4)]-snow"
+
+/obj/structure/flora/roguetree/pine/small
+	name = "pine tree"
+	desc = "A great pine tree, at least in time. For now it's small and feeble."
+	icon_state = "pine3"
+	icon = 'icons/obj/flora/pines.dmi'
+	static_debris = list(/obj/item/grown/log/tree = 1)
