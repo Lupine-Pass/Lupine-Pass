@@ -1,8 +1,8 @@
 
 <p align="center">
  <img width="322px" src="https://i.postimg.cc/gJ3yV0Jv/ageofpsydon.png" align="center" alt="Ratwood Stats" />
- <h1 align="center">AGE OF PSYDON</h1>
- <h2 align="center">Grim-Dark Medieval Roleplay<br>Anthros Allowed</h2>
+ <h1 align="center">Lupine Pass</h1>
+ <h2 align="center">Grim-Dark Medieval Roleplay<br>Anthro focused</h2>
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 | Website                   | Link                                           |
 |---------------------------|------------------------------------------------|
-| Discord          | [discord.gg/6pW3uT3aaX](https://discord.gg/6pW3uT3aaX) |
+| Discord          | [discord.gg/nukkzXgXpH](https://discord.gg/nukkzXgXpH) |
 | Wiki                      | [TBA]() |
 
 </div>
@@ -30,11 +30,11 @@
 
 # LICENSE
 
-## AGE OF PSYDON
+## LUPINE PASS
 
 All original code and assets of this repository are under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) unless otherwise indicated.
 
-## AGE OF PSYDON - Proprietary
+## LUPINE PASS - Proprietary
 
 The following code and assets are under a custom proprietary license as per author or client's wishes.
 
