@@ -47,6 +47,13 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors)
+"aNJ" = (
+/obj/structure/table/wood{
+	dir = 5;
+	icon_state = "largetable"
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
 "aOl" = (
 /obj/structure/chair/wood/rogue{
 	dir = 8;
@@ -168,12 +175,34 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors)
+"dai" = (
+/obj/machinery/light/rogue/hearth{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/obj/machinery/light/rogue/oven/south{
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/obj/item/cooking/pan,
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
 "dEO" = (
 /obj/structure/chair/wood/rogue,
 /obj/structure/fluff/walldeco/church/line{
 	dir = 1
 	},
 /turf/open/floor/rogue/carpet,
+/area/rogue/outdoors)
+"dOw" = (
+/obj/structure/table/wood{
+	dir = 6;
+	icon_state = "largetable"
+	},
+/turf/open/floor/rogue/blocks,
 /area/rogue/outdoors)
 "dQA" = (
 /obj/structure/bookcase/random{
@@ -346,6 +375,12 @@
 "gXO" = (
 /turf/open/water/bath,
 /area/rogue/outdoors)
+"hbc" = (
+/obj/structure/chair/wood/rogue{
+	dir = 8
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
 "huj" = (
 /turf/open/floor/rogue/snow,
 /area/rogue/outdoors)
@@ -376,6 +411,10 @@
 "hNe" = (
 /obj/structure/bonepile,
 /turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors)
+"hUQ" = (
+/obj/structure/fermenting_barrel/water,
+/turf/open/floor/rogue/blocks,
 /area/rogue/outdoors)
 "hXI" = (
 /obj/machinery/light/rogue/torchholder{
@@ -487,6 +526,21 @@
 	icon_state = "wooden_floor2"
 	},
 /area/rogue/outdoors)
+"kpO" = (
+/obj/machinery/light/rogue/hearth{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/obj/machinery/light/rogue/oven/south{
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/obj/item/reagent_containers/glass/bucket/pot,
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
 "krU" = (
 /obj/structure/mirror,
 /turf/open/floor/rogue/blocks,
@@ -562,6 +616,14 @@
 /area/rogue/outdoors)
 "mfJ" = (
 /turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors)
+"mfK" = (
+/obj/structure/table/wood{
+	dir = 8;
+	icon_state = "largetable"
+	},
+/obj/item/rogueweapon/huntingknife/cleaver,
+/turf/open/floor/rogue/blocks,
 /area/rogue/outdoors)
 "mfO" = (
 /obj/machinery/light/rogue/smelter/great,
@@ -673,6 +735,35 @@
 /obj/structure/well/fountain,
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors)
+"oUv" = (
+/obj/structure/closet/crate/chest{
+	lockid = "keep_armory"
+	},
+/obj/item/reagent_containers/food/snacks/rogue/meat/steak,
+/obj/item/reagent_containers/food/snacks/rogue/meat/steak,
+/obj/item/reagent_containers/food/snacks/butter,
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/obj/item/reagent_containers/food/snacks/rogue/meat/poultry,
+/obj/item/reagent_containers/food/snacks/rogue/meat/poultry,
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
+"oWS" = (
+/obj/structure/fermenting_barrel/beer,
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
+"pay" = (
+/obj/machinery/light/rogue/wallfire/candle,
+/obj/structure/table/wood{
+	dir = 8;
+	icon_state = "largetable"
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
 "pdv" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -711,6 +802,13 @@
 "plT" = (
 /turf/open/floor/rogue/snowpatchy,
 /area/rogue/outdoors)
+"pri" = (
+/obj/structure/table/wood{
+	dir = 10;
+	icon_state = "largetable"
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
 "pAf" = (
 /obj/machinery/light/rogue/torchholder/r,
 /turf/open/floor/rogue/blocks,
@@ -738,12 +836,38 @@
 "qdM" = (
 /turf/closed/mineral/random/rogue/med,
 /area/rogue/outdoors)
+"qiB" = (
+/obj/structure/closet/crate/chest{
+	lockid = "keep_armory"
+	},
+/obj/item/reagent_containers/food/snacks/grown/cabbage/rogue,
+/obj/item/reagent_containers/food/snacks/grown/cabbage/rogue,
+/obj/item/reagent_containers/food/snacks/grown/cabbage/rogue,
+/obj/item/reagent_containers/food/snacks/grown/potato/rogue,
+/obj/item/reagent_containers/food/snacks/grown/potato/rogue,
+/obj/item/reagent_containers/food/snacks/grown/potato/rogue,
+/obj/item/reagent_containers/food/snacks/grown/potato/rogue,
+/obj/item/reagent_containers/food/snacks/grown/potato/rogue,
+/obj/item/reagent_containers/food/snacks/grown/beet,
+/obj/item/reagent_containers/food/snacks/grown/beet,
+/obj/item/reagent_containers/food/snacks/grown/beet,
+/obj/item/reagent_containers/food/snacks/grown/beet,
+/obj/item/reagent_containers/food/snacks/grown/beet,
+/obj/item/reagent_containers/food/snacks/grown/onion/rogue,
+/obj/item/reagent_containers/food/snacks/grown/onion/rogue,
+/obj/item/reagent_containers/food/snacks/grown/onion/rogue,
+/obj/item/reagent_containers/food/snacks/grown/onion/rogue,
+/obj/item/reagent_containers/food/snacks/grown/onion/rogue,
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
 "qqI" = (
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors)
 "qwr" = (
-/obj/structure/table/wood/crafted,
-/turf/closed/mineral/random/rogue,
+/obj/structure/bars/passage/shutter{
+	redstone_id = kitchen
+	},
+/turf/open/floor/rogue/blocks,
 /area/rogue/outdoors)
 "qyS" = (
 /obj/machinery/light/rogue/firebowl/standing/blue,
@@ -789,6 +913,10 @@
 	},
 /turf/open/floor/rogue/churchmarble,
 /area/rogue/outdoors)
+"sdv" = (
+/obj/structure/fluff/millstone,
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
 "slx" = (
 /obj/structure/fluff/railing/border{
 	dir = 4;
@@ -820,6 +948,16 @@
 	pixel_x = -32;
 	pixel_y = -1
 	},
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
+"soR" = (
+/obj/structure/rack/rogue,
+/obj/item/soap,
+/obj/item/soap,
+/obj/item/soap,
+/obj/item/soap,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors)
 "sAF" = (
@@ -894,6 +1032,39 @@
 "uyE" = (
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors)
+"uAa" = (
+/obj/structure/lever/wall{
+	dir = 8;
+	pixel_y = 28;
+	redstone_id = kitchen
+	},
+/turf/closed/wall/mineral/rogue/decostone,
+/area/rogue/outdoors)
+"uMy" = (
+/obj/structure/closet/crate/chest,
+/obj/item/reagent_containers/food/snacks/egg,
+/obj/item/reagent_containers/food/snacks/egg,
+/obj/item/reagent_containers/food/snacks/egg,
+/obj/item/reagent_containers/powder/salt,
+/obj/item/reagent_containers/powder/salt,
+/obj/item/reagent_containers/powder/salt,
+/obj/item/reagent_containers/powder/salt,
+/obj/item/reagent_containers/food/snacks/egg,
+/obj/item/reagent_containers/powder/sugar,
+/obj/item/reagent_containers/powder/sugar,
+/obj/item/reagent_containers/powder/sugar,
+/obj/item/reagent_containers/food/snacks/egg,
+/obj/item/reagent_containers/food/snacks/egg,
+/obj/item/reagent_containers/glass/bottle/rogue/milk,
+/obj/item/reagent_containers/glass/bottle/rogue/milk,
+/obj/item/rogueore/coal,
+/obj/item/rogueore/coal,
+/obj/item/rogueore/coal,
+/obj/item/grown/log/tree/small,
+/obj/item/grown/log/tree/small,
+/obj/item/grown/log/tree/small,
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors)
 "uOh" = (
 /obj/structure/closet/crate/roguecloset/inn/south,
 /obj/item/rogueweapon/pick,
@@ -944,6 +1115,13 @@
 /area/rogue/outdoors)
 "vAI" = (
 /turf/open/floor/carpet/red,
+/area/rogue/outdoors)
+"vBU" = (
+/obj/structure/table/wood{
+	dir = 9;
+	icon_state = "largetable"
+	},
+/turf/open/floor/rogue/blocks,
 /area/rogue/outdoors)
 "weg" = (
 /obj/structure/mineral_door/wood/deadbolt{
@@ -35785,7 +35963,7 @@ xrk
 xrk
 xrk
 xrk
-qwr
+xrk
 xrk
 xrk
 xrk
@@ -105709,7 +105887,7 @@ rxz
 mxR
 mxR
 mxR
-rxz
+mxR
 mxR
 mxR
 mxR
@@ -105966,7 +106144,7 @@ rxz
 rxz
 mxR
 mxR
-rxz
+mxR
 mxR
 mxR
 mxR
@@ -106223,7 +106401,7 @@ gCh
 rxz
 mxR
 mxR
-rxz
+mxR
 mxR
 mxR
 mxR
@@ -106480,7 +106658,7 @@ bXJ
 rxz
 mxR
 mxR
-rxz
+mxR
 mxR
 mxR
 mxR
@@ -106737,7 +106915,7 @@ bqf
 rxz
 mxR
 mxR
-rxz
+mxR
 mxR
 mxR
 mxR
@@ -106994,7 +107172,7 @@ rxz
 rxz
 mxR
 mxR
-rxz
+mxR
 mxR
 mxR
 mxR
@@ -107251,9 +107429,9 @@ wFi
 rxz
 mxR
 mxR
-rxz
 mxR
-mxR
+xge
+xge
 mxR
 rxz
 huj
@@ -107508,9 +107686,9 @@ uxs
 rxz
 mxR
 mxR
-rxz
 mxR
-mxR
+vBU
+pri
 mxR
 rxz
 huj
@@ -107765,9 +107943,9 @@ rxz
 wOC
 mxR
 mxR
-rxz
 mxR
-mxR
+aNJ
+dOw
 mxR
 rxz
 huj
@@ -108022,9 +108200,9 @@ mxR
 wyL
 mxR
 mxR
-rxz
 mxR
-mxR
+hbc
+hbc
 mxR
 rxz
 huj
@@ -109048,8 +109226,8 @@ nqi
 nqi
 nqi
 rxz
-mxR
-mxR
+qwr
+qwr
 rxz
 mxR
 mxR
@@ -109304,9 +109482,9 @@ mxR
 mxR
 mxR
 mxR
-rxz
+uAa
 mxR
-mxR
+soR
 rxz
 mxR
 mxR
@@ -109555,7 +109733,7 @@ usx
 mif
 nqR
 rxz
-mxR
+sdv
 mxR
 mxR
 mxR
@@ -109563,7 +109741,7 @@ mxR
 mxR
 nSI
 mxR
-mxR
+qiB
 rxz
 mxR
 mxR
@@ -109812,15 +109990,15 @@ mif
 mif
 nqR
 rxz
+hUQ
 mxR
 mxR
 mxR
 mxR
-mxR
-mxR
+oWS
 rxz
 mxR
-mxR
+oUv
 rxz
 mxR
 mxR
@@ -110069,15 +110247,15 @@ qDX
 qDX
 nXa
 rxz
-mxR
-mxR
-mxR
-mxR
-mxR
-mxR
+pay
+pri
+kpO
+dai
+mfK
+pri
 rxz
 mxR
-mxR
+uMy
 rxz
 mxR
 mxR
@@ -165076,11 +165254,11 @@ mxR
 jCc
 rxz
 mxR
-gXO
-gXO
 mxR
-gXO
-gXO
+mxR
+mxR
+mxR
+mxR
 rxz
 mFs
 mFs
@@ -165333,11 +165511,11 @@ nSI
 rxz
 rxz
 mxR
-gXO
-gXO
 mxR
-gXO
-gXO
+mxR
+mxR
+mxR
+mxR
 rxz
 mFs
 mFs
@@ -165847,11 +166025,11 @@ mxR
 bXJ
 rxz
 mxR
-gXO
-gXO
 mxR
-gXO
-gXO
+mxR
+mxR
+mxR
+mxR
 rxz
 mFs
 mFs
@@ -166104,11 +166282,11 @@ mxR
 gCh
 rxz
 mxR
-gXO
-gXO
 mxR
-gXO
-gXO
+mxR
+mxR
+mxR
+mxR
 rxz
 mFs
 mFs
